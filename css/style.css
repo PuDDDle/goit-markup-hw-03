@@ -218,6 +218,10 @@ a {
   color: var(--CLOUD, #f4f4fd);
 }
 
+.span {
+  color: var(--CLOUD, #f4f4fd);
+}
+
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
