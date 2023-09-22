@@ -214,11 +214,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo span {
-  color: var(--CLOUD, #f4f4fd);
-}
 
-.span {
+.footer-span {
   color: var(--CLOUD, #f4f4fd);
 }
 
