@@ -43,11 +43,10 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
 }
 
 .container {
-  width: 1470px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -100,8 +99,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -186,10 +183,14 @@ a {
   background-color: #404bbf;
 }
 
-.visually-hidden .info {
+.visually-hidden {
+}
+
+.info {
   color: #2e2f42;
   padding-bottom: 120px;
   padding-top: 120px;
+  margin-bottom: 8px;
 }
 .info-list {
   display: flex;
@@ -220,6 +221,27 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.container-mark {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container-tom {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container-camila {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container-daniel {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-title {
   font-size: 36px;
   font-weight: 700;
@@ -249,15 +271,14 @@ a {
   margin-bottom: 32px;
 }
 .team-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   margin-top: 32px;
+  text-align: center;
   margin-bottom: 8px;
-  display: flex;
-  justify-content: center;
 }
 .team-text {
   color: var(--SLATE, #434455);
@@ -266,8 +287,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .portfolio {
@@ -295,7 +315,6 @@ a {
 .portfolio-item {
   width: calc((100% - 48px) / 4);
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  max-width: 360px;
 }
 .portfolio-subtitle {
   font-size: 20px;
@@ -308,6 +327,8 @@ a {
 }
 .portfolio-images {
   margin-bottom: 32px;
+  display: block;
+  max-width: 100%;
 }
 
 .portfolio-text {
